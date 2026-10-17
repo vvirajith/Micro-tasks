@@ -1,0 +1,26 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "name": "frontend",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --webpack",
+        "build": "next build --webpack",
+        "start": "next start",
+        "lint": "eslint",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "next": "^16.3.6",
+        "react": "^19.3.0",
+        "react-dom": "^19.3.0"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.3.7",
+        "@types/node": "^26.6.2",
+        "@types/react": "^19.3.0",
+        "@types/react-dom": "^19.3.0",
+        "eslint": "^9.39.5",
+        "eslint-config-next": "^16.3.6",
+        "typescript": "^6.0.3"
+    }
+}
